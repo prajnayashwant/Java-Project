@@ -1,15 +1,10 @@
-package array;
+package stringconcatination;
 
 public class Demo {
-	public static void main(String[]args)
-	{
-		int[][] matrix = {{10,20,30},{40,50,60}};
-			for (int i =0; i<matrix.length; i++) {
-				for (int j=0; j<matrix[i].length;j++)
-				{
-					System.out.println(matrix[i][j]+"");
-				}
-				System.out.println();
-			}
-	}
+	public static void main(String[]args) {
+	String s1 = new String("Hello");
+	String s2 = s1.concat("World");
+	System.out.println(s1);
+	System.out.println(s2);
+}
 }
